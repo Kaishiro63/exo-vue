@@ -1,21 +1,21 @@
 <script>
-import { def } from '@vue/shared';
-import Task from './components/Task.vue'
+import Todolist from './components/Todolist.vue';
 
-export default{
-  name : 'App',
+export default {
+  name: 'App',
   components: {
-    Task
+    Todolist,
   }
 }
+
 </script>
 
 <template>
   <div id="app">
-    <Task></Task>
+    <Todolist></Todolist>
   </div>
 </template>
 
-<style scoped>
+<style>
 
 </style>
